@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="card_background">#294262</color>
+    <color name="text_hint">#9BA0C4</color>
+    <color name="layout_background">#2B303A</color>
+    <color name="seekbar_background">#1273B2</color>
 </resources>

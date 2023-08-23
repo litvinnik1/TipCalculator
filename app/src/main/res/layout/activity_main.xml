@@ -15,7 +15,8 @@
         android:layout_marginTop="48dp"
         android:text="Base"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textSize="24sp"
+        android:textColor="#9BA0C4"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@id/tvBaseLabel"
         app:layout_constraintTop_toBottomOf="@+id/tvBaseLabel"
@@ -38,7 +40,8 @@
         android:layout_marginTop="32dp"
         android:text="Tip"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textSize="24sp"
+        android:textColor="#9BA0C4"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="@id/tvBaseLabel"
         app:layout_constraintTop_toBottomOf="@+id/tvTipPercentLabel" />
 
@@ -49,9 +52,10 @@
         android:layout_marginTop="32dp"
         android:text="Total"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#9BA0C4"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="@id/tvBaseLabel"
-        app:layout_constraintTop_toBottomOf="@+id/tvTipLabel"
-        android:textSize="24sp" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTipLabel" />
 
     <!-- Views on right side-->
     <EditText
@@ -62,7 +66,9 @@
         android:ems="8"
         android:hint="Bill amount"
         android:inputType="numberDecimal"
-        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9BA0C4"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="@id/tvBaseLabel"
         app:layout_constraintStart_toEndOf="@+id/tvBaseLabel"
         app:layout_constraintTop_toTopOf="@id/tvBaseLabel"
@@ -82,7 +88,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/tvTipLabel"
         app:layout_constraintStart_toStartOf="@+id/seekBarTip"
         app:layout_constraintTop_toTopOf="@+id/tvTipLabel"
@@ -93,9 +101,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/tvTotalLabel"
         app:layout_constraintStart_toStartOf="@+id/tvTipAmount"
         app:layout_constraintTop_toTopOf="@+id/tvTotalLabel"
         tools:text="103.11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Made with ❤️ by Nikita"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
