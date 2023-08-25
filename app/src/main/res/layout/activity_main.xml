@@ -78,7 +78,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/tvPerPerson"
         app:layout_constraintStart_toStartOf="@+id/seekBarTip"
-        app:layout_constraintTop_toTopOf="@+id/tvPerPerson" />
+        app:layout_constraintTop_toTopOf="@+id/tvPerPerson"
+        tools:text="12.60" />
 
     <TextView
         android:id="@+id/tvSplitByPerson"
@@ -120,7 +121,7 @@
         android:id="@+id/tvTipLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="56dp"
         android:text="Tip"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#9BA0C4"
@@ -168,7 +169,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Made with ❤️ by Nikita"
+        android:text="Made with ❤️ by Nikitos"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#FFFFFF"
@@ -178,5 +179,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTipDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarTip"
+        app:layout_constraintStart_toStartOf="@+id/seekBarTip"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarTip"
+        tools:text="Acceptable " />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,4 +13,6 @@
     <color name="text_hint">#9BA0C4</color>
     <color name="layout_background">#2B303A</color>
     <color name="seekbar_background">#1273B2</color>
+    <color name="color_worst_tip">#D71501</color>
+    <color name="color_best_tip">#40CC09</color>
 </resources>
