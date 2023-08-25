@@ -2,7 +2,7 @@
 
 ## *Nikita Lytvyn*
 
-**Tip Calculator** computes the tip and total amount for a bill. The app uses the base amount and tip percentage to calculate the amount owed, and it also describes the quality of service based on the tip.
+**Tip Calculator** computes the tip and total amount for a bill. The app uses the base amount and tip percentage to calculate the amount owed, can split the bill between a group of people and it also describes the quality of service based on the tip.
 
 Time spent: **24** hours spent in total
 
